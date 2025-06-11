@@ -2,12 +2,12 @@ from src.utils import print_board, check_winner, is_full
 
 class TicTacToe:
     def __init__(self):
-        self.board = [[" " for _ in range(3)] for _ in range(3)]
+        self.board = [["   " for _ in range(3)] for _ in range(3)]
         self.current_player = "X"
 
     def make_move(self, row, col):
-        if self.board[row][col] == " ":
-            self.board[row][col] = self.current_player
+        if self.board[row][col] == "   ":
+            self.board[row][col] = " " + self.current_player + " "
             return True
         return False
 

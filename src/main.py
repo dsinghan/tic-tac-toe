@@ -1,4 +1,4 @@
-from game import TicTacToe
+from src.game import TicTacToe
 
 def main():
     game = TicTacToe()
