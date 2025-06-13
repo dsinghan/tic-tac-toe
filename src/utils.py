@@ -16,6 +16,7 @@ def check_winner(board):
             winner = board[0][i][1]
             board[0][i] = board[1][i] = board[2][i] = "-" + winner + "-"
             return winner
+        
     # Check diagonals
     if board[0][0] == board[1][1] == board[2][2] != "   ":
         winner = board[0][0][1]
@@ -25,6 +26,7 @@ def check_winner(board):
         winner = board[0][2][1]
         board[0][2] = board[1][1] = board[2][0] = "-" + winner + "-"
         return winner
+    
     # No winner found
     return None
 
