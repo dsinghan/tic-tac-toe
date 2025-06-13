@@ -9,7 +9,7 @@ Python tic tac toe game.
 - Input validation
 - Board display after each move
 - Win and draw detection
-- Computer moves for single-player
+- Computer moves
 - Unit tests included
 
 ## Project Structure
