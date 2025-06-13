@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-Python tic tac toe game.
+Tic Tac Toe game written in Python.
 
 ## Features
 
