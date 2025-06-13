@@ -1,13 +1,15 @@
 # Tic Tac Toe
 
-A simple console-based Tic Tac Toe game implemented in Python.
+Python tic tac toe game.
 
 ## Features
 
 - Two-player mode (X and O)
+- Single-player mode (X)
 - Input validation
 - Board display after each move
 - Win and draw detection
+- Computer moves for single-player
 - Unit tests included
 
 ## Project Structure
@@ -15,9 +17,9 @@ A simple console-based Tic Tac Toe game implemented in Python.
 ```
 tic-tac-toe/
 ├── src/
-│   ├── main.py        # Entry point to play the game
-│   ├── game.py        # Game logic (TicTacToe class)
-│   └── utils.py       # Utility functions (board display, winner check)
+│   ├── main.py        # Gameplay
+│   ├── game.py        # Game logic
+│   └── utils.py       # Utility functions
 ├── tests/
 │   ├── __init__.py
 │   └── test_game.py   # Unit tests for the game logic
@@ -31,17 +33,13 @@ tic-tac-toe/
     ```sh
     python3 -m src.main
     ```
-3. **Follow the prompts** to enter your moves (row and column numbers from 0 to 2).
+3. **Follow the prompts** to choose the game mode and enter your moves.
 
 ## Running Unit Tests
 
 From the project root, run:
 ```sh
 python3 -m unittest discover
-```
-or
-```sh
-python3 -m unittest tests/test_game.py
 ```
 
 ## Example Gameplay
