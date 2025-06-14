@@ -39,17 +39,3 @@ From the project root, run:
 ```sh
 python3 -m unittest discover tests
 ```
-
-## Example Gameplay
-
-```
-    0   1   2
-  -------------
-0 |   |   |   |
-  -------------
-1 |   |   |   |
-  -------------
-2 |   |   |   |
-  -------------
-Player X's turn.
-```
