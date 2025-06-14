@@ -1,3 +1,4 @@
+# Print the game board
 def print_board(board):
     print("    0   1   2")
     print(" ", "-" * 13)
@@ -5,6 +6,7 @@ def print_board(board):
         print(row, "|" + "|".join(board[row]) + "|")
         print(" ", "-" * 13)
 
+# Check for a winner
 def check_winner(board):
     # Check rows and columns
     for i in range(3):
@@ -30,5 +32,6 @@ def check_winner(board):
     # No winner found
     return None
 
+# Check if the board is full
 def is_full(board):
     return all(cell != "   " for row in board for cell in row)

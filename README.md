@@ -4,54 +4,39 @@ Tic Tac Toe game written in Python.
 
 ## Features
 
-- Two-player mode (X and O)
-- Single-player mode (X)
+- Two-player mode
+- Single-player mode
 - Input validation
-- Board display after each move
+- Board display
 - Win and draw detection
 - Computer moves
-- Unit tests included
+- Unit tests
 
 ## Project Structure
 
 ```
 tic-tac-toe/
 ├── src/
-│   ├── main.py        # Gameplay
+│   ├── main.py
 │   ├── game.py        # Game logic
 │   └── utils.py       # Utility functions
 ├── tests/
 │   ├── __init__.py
-│   └── test_game.py   # Unit tests for the game logic
+│   ├── test_game.py 
+│   └── test_utils.py
 └── README.md
 ```
 
-## How to Play
-
-1. **Install Python 3** if you haven't already.
-2. **Run the game** from the project root:
-    ```sh
-    python3 -m src.main
-    ```
-3. **Follow the prompts** to choose the game mode and enter your moves.
-
-## Running Unit Tests
+### Running the Game
 
 From the project root, run:
 ```sh
-python3 -m unittest discover
+python3 -m src
 ```
 
-## Example Gameplay
+### Running Tests
 
+From the project root, run:
+```sh
+python3 -m unittest discover tests
 ```
-    0   1   2
-  -------------
-0 |   |   |   |
-  -------------
-1 |   |   |   |
-  -------------
-2 |   |   |   |
-  -------------
-Player X's turn.
-Enter row (0-2):
