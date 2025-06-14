@@ -17,11 +17,10 @@ Tic Tac Toe game written in Python.
 ```
 tic-tac-toe/
 ├── src/
-│   ├── main.py
+│   ├── __main__.py
 │   ├── game.py        # Game logic
 │   └── utils.py       # Utility functions
 ├── tests/
-│   ├── __init__.py
 │   ├── test_game.py 
 │   └── test_utils.py
 └── README.md
